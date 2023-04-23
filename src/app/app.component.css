@@ -1,0 +1,15 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.drawer-container-1 {
+  position: absolute;
+  top: 63px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.drawer-menu-container {
+  width: 10%;
+}

@@ -1,0 +1,8 @@
+<gridster [options]="options">
+    <gridster-item [item]="item" *ngFor="let item of dashboard">
+        <!-- your content here -->
+        <!-- <p class="title_212">dashboard works!</p> -->
+        <!-- <ng-container *ngComponentOutlet="item.component"></ng-container> -->
+        <app-graph-card [graph]="item['graph']"></app-graph-card>
+    </gridster-item>
+  </gridster>
